@@ -5,7 +5,7 @@ from ultralytics import YOLO
 model = YOLO("best_V4_task47_yolo8m___AP2_4#2.pt")
 
 #source = 'https://youtu.be/kjem5-kanuc'
-source = 1 # внутренний номер видеокамеры в системе
+source = 1 # внутренний номер видеокамеры в системе. Может быть 0, 1 и так далее.
 
 cap = cv2.VideoCapture(source, cv2.CAP_DSHOW)
 
